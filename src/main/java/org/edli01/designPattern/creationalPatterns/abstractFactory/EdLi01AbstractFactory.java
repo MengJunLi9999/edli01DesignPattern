@@ -20,19 +20,19 @@ public class EdLi01AbstractFactory {
 
     public static TheTypeOfAnimal selectTheTypeOfAnimal() {
         TheTypeOfAnimal theTypeOfAnimal;
-        ToyFactory toyFactory;
+        IToyFactory IToyFactory;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Would you like baby animal toys?(Please answer YES or NO.)");
         String yesOrNo = scanner.nextLine();
 
         if (yesOrNo.equals("YES")) {
-            toyFactory = new BabyAnimalsFactory();
+            IToyFactory = new BabyAnimalsFactoryI();
         } else {
-            toyFactory = new AdultAnimalsFactory();
+            IToyFactory = new AdultAnimalsFactoryI();
         }
 
-        theTypeOfAnimal = new TheTypeOfAnimal(toyFactory);
+        theTypeOfAnimal = new TheTypeOfAnimal(IToyFactory);
 
         return theTypeOfAnimal;
     }

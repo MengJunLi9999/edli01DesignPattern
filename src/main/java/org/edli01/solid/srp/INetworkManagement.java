@@ -9,7 +9,7 @@ package org.edli01.solid.srp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public interface ITFNetworkManagement {
+public interface INetworkManagement {
     public void enable();
     public void disable();
 }

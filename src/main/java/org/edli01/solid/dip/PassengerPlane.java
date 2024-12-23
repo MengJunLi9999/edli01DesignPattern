@@ -9,7 +9,7 @@ package org.edli01.solid.dip;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class PassengerPlane implements ITFPlane {
+public class PassengerPlane implements IPlane {
     @Override
     public void flight() {
         System.out.println("The passenger plane begins flying.");

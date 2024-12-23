@@ -9,6 +9,6 @@ package org.edli01.solid.ocp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public interface ITFMobilePay extends ITFPayment {
+public interface IMobilePay extends IPayment {
     public void identityVerification();
 }

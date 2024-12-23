@@ -9,23 +9,23 @@ package org.edli01.solid.isp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class Scout extends ABSScout {
-    public Scout(ITFExcellentHitter twoWayPlayer) {
+public class Scout extends AScout {
+    public Scout(IExcellentHitter twoWayPlayer) {
         super(twoWayPlayer);
     }
 
-    public Scout(ITFExcellentPitching twoWayPlayer) {
+    public Scout(IExcellentPitching twoWayPlayer) {
         super(twoWayPlayer);
     }
 
     @Override
     public void display() {
         System.out.println("Player ability information.");
-        if(super.itfExcellentHitter != null) {
-            super.itfExcellentHitter.hit();
-            super.itfExcellentHitter.defense();
+        if(super.iExcellentHitter != null) {
+            super.iExcellentHitter.hit();
+            super.iExcellentHitter.defense();
         }
-        if(super.itfExcellentPitching != null)
-            super.itfExcellentPitching.pitch();
+        if(super.iExcellentPitching != null)
+            super.iExcellentPitching.pitch();
     }
 }

@@ -11,8 +11,8 @@ package org.edli01.solid.isp;
  **/
 public class EdLi01Isp {
     public static void main(String[] args) {
-        ITFExcellentHitter edli01Player = new TwoWayPlayer("edli01");
-        ABSScout scout = new Scout(edli01Player);
+        IExcellentHitter edli01Player = new TwoWayPlayer("edli01");
+        AScout scout = new Scout(edli01Player);
         scout.display();
     }
 }

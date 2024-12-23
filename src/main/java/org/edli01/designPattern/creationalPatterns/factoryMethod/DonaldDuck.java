@@ -9,7 +9,7 @@ package org.edli01.designPattern.creationalPatterns.factoryMethod;
  * @WebSite: https://edli-01.com/
  * @Description: Implement the Factory Method Pattern in design patterns.
  **/
-public class DonaldDuck implements CuteAnimals {
+public class DonaldDuck implements ICuteAnimals {
     @Override
     public void sayHello() {
         System.out.println("Hello, I'm Donald Duck.");

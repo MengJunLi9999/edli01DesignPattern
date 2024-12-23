@@ -9,7 +9,7 @@ package org.edli01.solid.isp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public interface ITFExcellentHitter {
+public interface IExcellentHitter {
     public void hit();
     public void defense();
 }

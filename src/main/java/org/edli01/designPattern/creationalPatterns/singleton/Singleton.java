@@ -27,7 +27,6 @@ public final class Singleton {
         }
 
         synchronized (Singleton.class) {
-
             if(instanceEdLi01 == null) {
                 instanceEdLi01 = new Singleton(transaction);
             }

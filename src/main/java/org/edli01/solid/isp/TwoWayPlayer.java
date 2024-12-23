@@ -9,7 +9,7 @@ package org.edli01.solid.isp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class TwoWayPlayer implements ITFExcellentHitter, ITFExcellentPitching{
+public class TwoWayPlayer implements IExcellentHitter, IExcellentPitching {
     private String name;
 
     public TwoWayPlayer(String name) {

@@ -10,19 +10,19 @@ package org.edli01.designPattern.creationalPatterns.abstractFactory;
  * @Description: Implement the Abstract Factory Pattern in design patterns.
  **/
 public class TheTypeOfAnimal {
-    private LandAnimals landAnimals;
+    private ILandAnimals ILandAnimals;
 
-    private SeaAnimals seaAnimals;
+    private ISeaAnimals ISeaAnimals;
 
-    public TheTypeOfAnimal(ToyFactory toyFactory) {
-        landAnimals = toyFactory.createLandAnimal();
+    public TheTypeOfAnimal(IToyFactory IToyFactory) {
+        ILandAnimals = IToyFactory.createLandAnimal();
 
-        seaAnimals = toyFactory.createSeaAnimal();
+        ISeaAnimals = IToyFactory.createSeaAnimal();
     }
 
     public void eat() {
-        landAnimals.eat();
+        ILandAnimals.eat();
 
-        seaAnimals.eat();
+        ISeaAnimals.eat();
     }
 }

@@ -9,6 +9,6 @@ package org.edli01.oop.polymorphism;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public interface ITFJavaDevelopment {
+public interface IJavaDevelopment {
     void develop();
 }

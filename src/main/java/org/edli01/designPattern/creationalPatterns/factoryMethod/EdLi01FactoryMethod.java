@@ -12,11 +12,10 @@ package org.edli01.designPattern.creationalPatterns.factoryMethod;
 import java.util.Scanner;
 
 public class EdLi01FactoryMethod {
-    private static ToyFactory toyFactory;
+    private static AToyFactory AToyFactory;
 
     public static void main(String[] args) {
         generateToy();
-
         toyFunctions();
     }
 
@@ -26,12 +25,12 @@ public class EdLi01FactoryMethod {
         String yesOrNo = scanner.nextLine();
 
         if (yesOrNo.equals("YES"))
-            toyFactory = new MickeyMouseFactory();
+            AToyFactory = new MickeyMouseFactoryA();
         else
-            toyFactory = new DonaldDockFactory();
+            AToyFactory = new DonaldDockFactoryA();
     }
 
     public static void toyFunctions() {
-        toyFactory.doSomething();
+        AToyFactory.doSomething();
     }
 }

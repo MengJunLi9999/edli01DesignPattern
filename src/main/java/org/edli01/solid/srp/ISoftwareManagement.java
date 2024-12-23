@@ -9,7 +9,7 @@ package org.edli01.solid.srp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public interface ITFSoftwareManagement {
+public interface ISoftwareManagement {
     public void openApp();
     public void closeApp();
 }

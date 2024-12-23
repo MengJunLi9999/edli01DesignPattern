@@ -9,7 +9,7 @@ package org.edli01.solid.srp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class SmartTv implements ITFSoftwareManagement, ITFNetworkManagement {
+public class SmartTv implements ISoftwareManagement, INetworkManagement {
     @Override
     public void enable() {
         System.out.println("Enable.");

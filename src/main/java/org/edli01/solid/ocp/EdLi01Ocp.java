@@ -14,7 +14,7 @@ public class EdLi01Ocp {
         ShoppingStore shoppingStore = new ShoppingStore();
 
         System.out.println("Payment methods supported by the store.");
-        for(ITFPayment payment : shoppingStore.getPaymentList()) {
+        for(IPayment payment : shoppingStore.getPaymentList()) {
             System.out.println(payment.pay());
         }
     }

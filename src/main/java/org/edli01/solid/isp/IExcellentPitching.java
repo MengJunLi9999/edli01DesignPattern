@@ -1,14 +1,14 @@
-package org.edli01.solid.dip;
+package org.edli01.solid.isp;
 
 /**
  * @Project: edli01DesignPattern
- * @Package: org.edli01.solid.dip
+ * @Package: org.edli01.solid.isp
  * @Author: MENG-JUN LI
- * @CreateTime: 2024-12-20 00:47
+ * @CreateTime: 2024-12-20 01:49
  * @Instagram: https://www.instagram.com/edli_01
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public interface ITFPilot {
-    public void fly(ITFPlane itfPlane);
+public interface IExcellentPitching {
+    public void pitch();
 }

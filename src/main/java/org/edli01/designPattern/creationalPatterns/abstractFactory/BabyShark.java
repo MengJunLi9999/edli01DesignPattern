@@ -9,7 +9,7 @@ package org.edli01.designPattern.creationalPatterns.abstractFactory;
  * @WebSite: https://edli-01.com/
  * @Description: Implement the Abstract Factory Pattern in design patterns.
  **/
-public class BabyShark implements SeaAnimals {
+public class BabyShark implements ISeaAnimals {
     @Override
     public void eat() {
         System.out.println("Baby sharks like to eat small fish.");

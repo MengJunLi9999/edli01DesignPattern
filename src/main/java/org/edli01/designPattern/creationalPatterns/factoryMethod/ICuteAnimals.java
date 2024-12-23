@@ -9,7 +9,7 @@ package org.edli01.designPattern.creationalPatterns.factoryMethod;
  * @WebSite: https://edli-01.com/
  * @Description: Implement the Factory Method Pattern in design patterns.
  **/
-public interface CuteAnimals {
+public interface ICuteAnimals {
     public void sayHello();
 
     public void run();

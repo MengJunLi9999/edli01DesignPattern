@@ -9,7 +9,7 @@ package org.edli01.oop.polymorphism;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class MobileApplicationDevelopment implements ITFJavaDevelopment {
+public class MobileApplicationDevelopment implements IJavaDevelopment {
     @Override
     public void develop() {
         System.out.println("Develop a mobile application.");

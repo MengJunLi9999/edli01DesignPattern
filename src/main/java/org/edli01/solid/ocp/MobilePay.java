@@ -9,7 +9,7 @@ package org.edli01.solid.ocp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class MobilePay implements ITFMobilePay {
+public class MobilePay implements IMobilePay {
     public String pay() {
         return "Choose Mobile pay payment.";
     }

@@ -9,14 +9,14 @@ package org.edli01.designPattern.creationalPatterns.abstractFactory;
  * @WebSite: https://edli-01.com/
  * @Description: Implement the Abstract Factory Pattern in design patterns.
  **/
-public class BabyAnimalsFactory implements ToyFactory {
+public class BabyAnimalsFactoryI implements IToyFactory {
     @Override
-    public LandAnimals createLandAnimal() {
+    public ILandAnimals createLandAnimal() {
         return new BabyElephant();
     }
 
     @Override
-    public SeaAnimals createSeaAnimal() {
+    public ISeaAnimals createSeaAnimal() {
         return new BabyShark();
     }
 }

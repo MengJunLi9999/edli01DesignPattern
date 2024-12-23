@@ -9,7 +9,7 @@ package org.edli01.oop.polymorphism;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class BackendDevelopment implements ITFJavaDevelopment {
+public class BackendDevelopment implements IJavaDevelopment {
     @Override
     public void develop() {
         System.out.println("Develop a backend.");

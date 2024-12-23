@@ -11,8 +11,8 @@ package org.edli01.oop.polymorphism;
  **/
 public class EdLi01Polymorphism {
     public static void main(String[] args) {
-        ITFJavaDevelopment mobileApplicationDevelopment = new MobileApplicationDevelopment();
-        ITFJavaDevelopment backendDevelopment = new BackendDevelopment();
+        IJavaDevelopment mobileApplicationDevelopment = new MobileApplicationDevelopment();
+        IJavaDevelopment backendDevelopment = new BackendDevelopment();
 
         mobileApplicationDevelopment.develop();
         backendDevelopment.develop();

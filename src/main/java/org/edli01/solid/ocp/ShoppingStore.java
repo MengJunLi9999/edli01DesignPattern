@@ -13,7 +13,7 @@ import java.util.List;
  * @Description:
  **/
 public class ShoppingStore {
-    private final static List<ITFPayment> paymentList = new ArrayList<ITFPayment>();
+    private final static List<IPayment> paymentList = new ArrayList<IPayment>();
 
     static {
         paymentList.add(new Cash());
@@ -21,7 +21,7 @@ public class ShoppingStore {
         paymentList.add(new MobilePay());
     }
 
-    public List<ITFPayment> getPaymentList() {
+    public List<IPayment> getPaymentList() {
         return this.paymentList;
     }
 }

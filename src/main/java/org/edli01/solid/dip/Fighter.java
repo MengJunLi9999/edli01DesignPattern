@@ -9,7 +9,7 @@ package org.edli01.solid.dip;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class Fighter implements ITFPlane {
+public class Fighter implements IPlane {
     @Override
     public void flight() {
         System.out.println("The fighter jet begins flying.");

@@ -9,6 +9,6 @@ package org.edli01.solid.ocp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public interface ITFPayment {
+public interface IPayment {
     public String pay();
 }

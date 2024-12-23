@@ -9,9 +9,9 @@ package org.edli01.designPattern.creationalPatterns.factoryMethod;
  * @WebSite: https://edli-01.com/
  * @Description: Implement the Factory Method Pattern in design patterns.
  **/
-public class DonaldDockFactory extends ToyFactory {
+public class DonaldDockFactoryA extends AToyFactory {
     @Override
-    public CuteAnimals createAnimal() {
+    public ICuteAnimals createAnimal() {
         return new DonaldDuck();
     }
 }

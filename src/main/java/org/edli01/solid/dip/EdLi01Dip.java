@@ -11,8 +11,8 @@ package org.edli01.solid.dip;
  **/
 public class EdLi01Dip {
     public static void main(String[] args) {
-        ITFPilot edli01Pilot = new Pilot();
-        ITFPlane fighter = new Fighter();
+        IPilot edli01Pilot = new Pilot();
+        IPlane fighter = new Fighter();
         edli01Pilot.fly(fighter);
     }
 }

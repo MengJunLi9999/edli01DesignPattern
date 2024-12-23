@@ -9,7 +9,7 @@ package org.edli01.solid.ocp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class Cash implements ITFPayment {
+public class Cash implements IPayment {
     public String pay() {
         return "Choose cash payment.";
     }

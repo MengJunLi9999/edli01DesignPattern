@@ -9,7 +9,7 @@ package org.edli01.solid.ocp;
  * @Blog: https://edli-01.com/
  * @Description:
  **/
-public class CreditCard implements ITFPayment {
+public class CreditCard implements IPayment {
     public String pay() {
         return "Choose credit card payment.";
     }
