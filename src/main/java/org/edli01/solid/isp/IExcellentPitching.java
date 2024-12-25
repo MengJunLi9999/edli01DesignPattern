@@ -10,5 +10,5 @@ package org.edli01.solid.isp;
  * @Description:
  **/
 public interface IExcellentPitching {
-    public void pitch();
+  public void pitch();
 }

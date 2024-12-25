@@ -10,8 +10,8 @@ package org.edli01.oop.polymorphism;
  * @Description:
  **/
 public class BackendDevelopment implements IJavaDevelopment {
-    @Override
-    public void develop() {
-        System.out.println("Develop a backend.");
-    }
+  @Override
+  public void develop() {
+    System.out.println("Develop a backend.");
+  }
 }

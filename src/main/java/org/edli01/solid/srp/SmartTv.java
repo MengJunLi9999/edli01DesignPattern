@@ -10,23 +10,23 @@ package org.edli01.solid.srp;
  * @Description:
  **/
 public class SmartTv implements ISoftwareManagement, INetworkManagement {
-    @Override
-    public void enable() {
-        System.out.println("Enable.");
-    }
+  @Override
+  public void enable() {
+    System.out.println("Enable.");
+  }
 
-    @Override
-    public void disable() {
-        System.out.println("Disable.");
-    }
+  @Override
+  public void disable() {
+    System.out.println("Disable.");
+  }
 
-    @Override
-    public void openApp() {
-        System.out.println("Open App.");
-    }
+  @Override
+  public void openApp() {
+    System.out.println("Open App.");
+  }
 
-    @Override
-    public void closeApp() {
-        System.out.println("Close App.");
-    }
+  @Override
+  public void closeApp() {
+    System.out.println("Close App.");
+  }
 }

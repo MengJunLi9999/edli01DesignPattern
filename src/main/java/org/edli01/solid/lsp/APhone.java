@@ -10,5 +10,5 @@ package org.edli01.solid.lsp;
  * @Description:
  **/
 public abstract class APhone {
-    public abstract void sell();
+  public abstract void sell();
 }

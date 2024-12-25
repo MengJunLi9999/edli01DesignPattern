@@ -10,13 +10,13 @@ package org.edli01.solid.lsp;
  * @Description:
  **/
 public class EdLi01Lsp {
-    public static void main(String[] args) {
-        Salesperson iphoneSalesperson = new Salesperson();
-        iphoneSalesperson.setAbsPhone(new IPhone());
-        iphoneSalesperson.startWorking();
+  public static void main(String[] args) {
+    Salesperson iphoneSalesperson = new Salesperson();
+    iphoneSalesperson.setAbsPhone(new IPhone());
+    iphoneSalesperson.startWorking();
 
-        Salesperson gphoneSalesperson = new Salesperson();
-        gphoneSalesperson.setAbsPhone(new GPhone());
-        gphoneSalesperson.startWorking();
-    }
+    Salesperson gphoneSalesperson = new Salesperson();
+    gphoneSalesperson.setAbsPhone(new GPhone());
+    gphoneSalesperson.startWorking();
+  }
 }

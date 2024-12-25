@@ -13,13 +13,13 @@ import java.util.List;
  * @Description:
  **/
 public class EdLi01Encapsulation {
-    public static void main(String[] args) {
-        List<Book> bookList = new ArrayList<>();
-        bookList.add(new Book(1l, "Java Book"));
-        bookList.add(new Book(2l, "Design pattern"));
-        bookList.add(new Book(3l, "Java Virtual Machine"));
+  public static void main(String[] args) {
+    List<Book> bookList = new ArrayList<>();
+    bookList.add(new Book(1l, "Java Book"));
+    bookList.add(new Book(2l, "Design pattern"));
+    bookList.add(new Book(3l, "Java Virtual Machine"));
 
-        LibraryAccount edli01Account = new LibraryAccount(1l, "edli01", bookList);
-        edli01Account.displayBorrowedBooks();
-    }
+    LibraryAccount edli01Account = new LibraryAccount(1l, "edli01", bookList);
+    edli01Account.displayBorrowedBooks();
+  }
 }

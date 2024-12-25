@@ -10,22 +10,23 @@ package org.edli01.solid.isp;
  * @Description:
  **/
 public class Scout extends AScout {
-    public Scout(IExcellentHitter twoWayPlayer) {
-        super(twoWayPlayer);
-    }
+  public Scout(IExcellentHitter twoWayPlayer) {
+    super(twoWayPlayer);
+  }
 
-    public Scout(IExcellentPitching twoWayPlayer) {
-        super(twoWayPlayer);
-    }
+  public Scout(IExcellentPitching twoWayPlayer) {
+    super(twoWayPlayer);
+  }
 
-    @Override
-    public void display() {
-        System.out.println("Player ability information.");
-        if(super.iExcellentHitter != null) {
-            super.iExcellentHitter.hit();
-            super.iExcellentHitter.defense();
-        }
-        if(super.iExcellentPitching != null)
-            super.iExcellentPitching.pitch();
+  @Override
+  public void display() {
+    System.out.println("Player ability information.");
+    if (super.iExcellentHitter != null) {
+      super.iExcellentHitter.hit();
+      super.iExcellentHitter.defense();
     }
+    if (super.iExcellentPitching != null) {
+      super.iExcellentPitching.pitch();
+    }
+}
 }

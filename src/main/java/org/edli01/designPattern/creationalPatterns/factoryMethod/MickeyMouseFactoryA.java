@@ -1,8 +1,8 @@
-package org.edli01.designPattern.creationalPatterns.factoryMethod;
+package org.edli01.designpattern.creationalpatterns.factorymethod;
 
 /**
  * @Project: edli01DesignPattern
- * @Package: org.edli01.creationalPatterns.factoryMethod
+ * @Package: org.edli01.designpattern.creationalpatterns.factorymethod
  * @Author: MENG-JUN LI
  * @CreateTime: 2024-09-29 11:54
  * @Instagram: https://www.instagram.com/edli_01
@@ -10,8 +10,8 @@ package org.edli01.designPattern.creationalPatterns.factoryMethod;
  * @Description: Implement the Factory Method Pattern in design patterns.
  **/
 public class MickeyMouseFactoryA extends AToyFactory {
-    @Override
-    public ICuteAnimals createAnimal() {
-        return new MickeyMouse();
-    }
+  @Override
+  public ICuteAnimals createAnimal() {
+    return new MickeyMouse();
+  }
 }

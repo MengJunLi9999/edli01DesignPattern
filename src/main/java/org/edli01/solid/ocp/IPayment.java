@@ -10,5 +10,5 @@ package org.edli01.solid.ocp;
  * @Description:
  **/
 public interface IPayment {
-    public String pay();
+  public String pay();
 }

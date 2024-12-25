@@ -10,12 +10,12 @@ package org.edli01.solid.ocp;
  * @Description:
  **/
 public class EdLi01Ocp {
-    public static void main(String[] args) {
-        ShoppingStore shoppingStore = new ShoppingStore();
+  public static void main(String[] args) {
+    ShoppingStore shoppingStore = new ShoppingStore();
 
-        System.out.println("Payment methods supported by the store.");
-        for(IPayment payment : shoppingStore.getPaymentList()) {
-            System.out.println(payment.pay());
-        }
+    System.out.println("Payment methods supported by the store.");
+    for(IPayment payment : shoppingStore.getPaymentList()) {
+      System.out.println(payment.pay());
     }
+  }
 }

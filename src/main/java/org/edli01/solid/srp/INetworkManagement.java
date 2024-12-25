@@ -10,6 +10,6 @@ package org.edli01.solid.srp;
  * @Description:
  **/
 public interface INetworkManagement {
-    public void enable();
-    public void disable();
+  public void enable();
+  public void disable();
 }

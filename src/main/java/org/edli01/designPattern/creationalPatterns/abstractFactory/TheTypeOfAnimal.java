@@ -1,28 +1,25 @@
-package org.edli01.designPattern.creationalPatterns.abstractFactory;
+package org.edli01.designpattern.creationalpatterns.abstractfactory;
 
 /**
  * @Project: edli01DesignPattern
- * @Package: org.edli01.creationalPatterns.abstractFactory
+ * @Package: org.edli01.designpattern.creationalpatterns.abstractfactory
  * @Author: MENG-JUN LI
- * @CreateTime: 2024-09-29 13:00
+ * @CreateTime: 2024-12-25 16:22
  * @Instagram: https://www.instagram.com/edli_01
  * @WebSite: https://edli-01.com/
- * @Description: Implement the Abstract Factory Pattern in design patterns.
- **/
+ * @Description: Client class for Abstract Factory Pattern
+ */
 public class TheTypeOfAnimal {
-    private ILandAnimals ILandAnimals;
+  private ILandAnimals landAnimal;
+  private ISeaAnimals seaAnimal;
 
-    private ISeaAnimals ISeaAnimals;
+  public TheTypeOfAnimal(IToyFactory factory) {
+    landAnimal = factory.createLandAnimal();
+    seaAnimal = factory.createSeaAnimal();
+  }
 
-    public TheTypeOfAnimal(IToyFactory IToyFactory) {
-        ILandAnimals = IToyFactory.createLandAnimal();
-
-        ISeaAnimals = IToyFactory.createSeaAnimal();
-    }
-
-    public void eat() {
-        ILandAnimals.eat();
-
-        ISeaAnimals.eat();
-    }
+  public void eat() {
+    landAnimal.eat();
+    seaAnimal.eat();
+  }
 }

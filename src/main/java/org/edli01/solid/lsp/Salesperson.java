@@ -10,14 +10,14 @@ package org.edli01.solid.lsp;
  * @Description:
  **/
 public class Salesperson {
-    private APhone aPhone;
+  private APhone aPhone;
 
-    public void setAbsPhone(APhone aPhone) {
-        this.aPhone = aPhone;
-    }
+  public void setAbsPhone(APhone aPhone) {
+    this.aPhone = aPhone;
+  }
 
-    public void startWorking() {
-        System.out.println("Start working.");
-        aPhone.sell();
-    }
+  public void startWorking() {
+    System.out.println("Start working.");
+    aPhone.sell();
+  }
 }

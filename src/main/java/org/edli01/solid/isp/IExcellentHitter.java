@@ -10,6 +10,6 @@ package org.edli01.solid.isp;
  * @Description:
  **/
 public interface IExcellentHitter {
-    public void hit();
-    public void defense();
+  public void hit();
+  public void defense();
 }

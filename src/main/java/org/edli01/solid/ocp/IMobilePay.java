@@ -10,5 +10,5 @@ package org.edli01.solid.ocp;
  * @Description:
  **/
 public interface IMobilePay extends IPayment {
-    public void identityVerification();
+  public void identityVerification();
 }

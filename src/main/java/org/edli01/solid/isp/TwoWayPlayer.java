@@ -10,24 +10,24 @@ package org.edli01.solid.isp;
  * @Description:
  **/
 public class TwoWayPlayer implements IExcellentHitter, IExcellentPitching {
-    private String name;
+  private String name;
 
-    public TwoWayPlayer(String name) {
-        this.name = name;
-    }
+  public TwoWayPlayer(String name) {
+    this.name = name;
+  }
 
-    @Override
-    public void hit() {
-        System.out.println("Top-notch hitting.");
-    }
+  @Override
+  public void hit() {
+    System.out.println("Top-notch hitting.");
+  }
 
-    @Override
-    public void defense() {
-        System.out.println("Top-notch defensive.");
-    }
+  @Override
+  public void defense() {
+    System.out.println("Top-notch defensive.");
+  }
 
-    @Override
-    public void pitch() {
-        System.out.println("Top-notch pitching.");
-    }
+  @Override
+  public void pitch() {
+    System.out.println("Top-notch pitching.");
+  }
 }

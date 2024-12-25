@@ -10,7 +10,7 @@ package org.edli01.solid.lod;
  * @Description:
  **/
 public class ZooDirector {
-    public void assignTasks(Zookeeper zookeeper) {
-        zookeeper.feedAndDisplay();
-    }
+  public void assignTasks(Zookeeper zookeeper) {
+    zookeeper.feedAndDisplay();
+  }
 }

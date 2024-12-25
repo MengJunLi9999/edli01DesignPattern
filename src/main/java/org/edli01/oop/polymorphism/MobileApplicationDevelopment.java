@@ -10,8 +10,8 @@ package org.edli01.oop.polymorphism;
  * @Description:
  **/
 public class MobileApplicationDevelopment implements IJavaDevelopment {
-    @Override
-    public void develop() {
-        System.out.println("Develop a mobile application.");
-    }
+  @Override
+  public void develop() {
+    System.out.println("Develop a mobile application.");
+  }
 }

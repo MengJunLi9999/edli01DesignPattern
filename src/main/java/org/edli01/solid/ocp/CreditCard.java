@@ -10,7 +10,7 @@ package org.edli01.solid.ocp;
  * @Description:
  **/
 public class CreditCard implements IPayment {
-    public String pay() {
-        return "Choose credit card payment.";
-    }
+  public String pay() {
+    return "Choose credit card payment.";
+  }
 }

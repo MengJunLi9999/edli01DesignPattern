@@ -10,19 +10,19 @@ package org.edli01.oop.encapsulation;
  * @Description:
  **/
 public class Book {
-    private Long bookId;
-    private String bookName;
+  private Long bookId;
+  private String bookName;
 
-    Book(Long bookId, String bookName) {
-        this.bookId = bookId;
-        this.bookName = bookName;
-    }
+  Book(Long bookId, String bookName) {
+    this.bookId = bookId;
+    this.bookName = bookName;
+  }
 
-    public Long getBookId() {
-        return this.bookId;
-    }
+  public Long getBookId() {
+    return this.bookId;
+  }
 
-    public String getBookName() {
-        return this.bookName;
-    }
+  public String getBookName() {
+    return this.bookName;
+  }
 }

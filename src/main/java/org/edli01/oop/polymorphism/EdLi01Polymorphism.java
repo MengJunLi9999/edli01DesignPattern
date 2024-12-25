@@ -10,11 +10,11 @@ package org.edli01.oop.polymorphism;
  * @Description:
  **/
 public class EdLi01Polymorphism {
-    public static void main(String[] args) {
-        IJavaDevelopment mobileApplicationDevelopment = new MobileApplicationDevelopment();
-        IJavaDevelopment backendDevelopment = new BackendDevelopment();
+  public static void main(String[] args) {
+    IJavaDevelopment mobileApplicationDevelopment = new MobileApplicationDevelopment();
+    IJavaDevelopment backendDevelopment = new BackendDevelopment();
 
-        mobileApplicationDevelopment.develop();
-        backendDevelopment.develop();
-    }
+    mobileApplicationDevelopment.develop();
+    backendDevelopment.develop();
+  }
 }

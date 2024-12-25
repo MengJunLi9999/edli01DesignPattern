@@ -10,5 +10,5 @@ package org.edli01.oop.polymorphism;
  * @Description:
  **/
 public interface IJavaDevelopment {
-    void develop();
+  void develop();
 }

@@ -13,13 +13,13 @@ import java.util.List;
  * @Description:
  **/
 public class EdLi01Lod {
-    public static void main(String[] args) {
-        List<Animal> animalList = new ArrayList<Animal>();
-        animalList.add(new Animal("Lion"));
-        animalList.add(new Animal("Shark"));
-        animalList.add(new Animal("Eagle"));
+  public static void main(String[] args) {
+    List<Animal> animalList = new ArrayList<Animal>();
+    animalList.add(new Animal("Lion"));
+    animalList.add(new Animal("Shark"));
+    animalList.add(new Animal("Eagle"));
 
-        ZooDirector zooDirector = new ZooDirector();
-        zooDirector.assignTasks(new Zookeeper(animalList));
-    }
+    ZooDirector zooDirector = new ZooDirector();
+    zooDirector.assignTasks(new Zookeeper(animalList));
+  }
 }

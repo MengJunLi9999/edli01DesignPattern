@@ -1,16 +1,15 @@
-package org.edli01.designPattern.creationalPatterns.abstractFactory;
+package org.edli01.designpattern.creationalpatterns.abstractfactory;
 
 /**
  * @Project: edli01DesignPattern
- * @Package: org.edli01.creationalPatterns.abstractFactory
+ * @Package: org.edli01.designpattern.creationalpatterns.abstractfactory
  * @Author: MENG-JUN LI
- * @CreateTime: 2024-09-29 12:31
+ * @CreateTime: 2024-12-25 16:10
  * @Instagram: https://www.instagram.com/edli_01
  * @WebSite: https://edli-01.com/
- * @Description: Implement the Abstract Factory Pattern in design patterns.
- **/
+ * @Description: Abstract Factory interface
+ */
 public interface IToyFactory {
-    public ILandAnimals createLandAnimal();
-
-    public ISeaAnimals createSeaAnimal();
+  ILandAnimals createLandAnimal();
+  ISeaAnimals createSeaAnimal();
 }

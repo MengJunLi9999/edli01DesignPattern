@@ -10,11 +10,11 @@ package org.edli01.solid.ocp;
  * @Description:
  **/
 public class MobilePay implements IMobilePay {
-    public String pay() {
-        return "Choose Mobile pay payment.";
-    }
+  public String pay() {
+    return "Choose Mobile pay payment.";
+  }
 
-    public void identityVerification() {
-        System.out.println("Perform identity verification before mobile payment.");
-    }
+  public void identityVerification() {
+    System.out.println("Perform identity verification before mobile payment.");
+  }
 }

@@ -10,11 +10,11 @@ package org.edli01.solid.srp;
  * @Description:
  **/
 public class EdLi01Srp {
-    public static void main(String[] args) {
-        SmartTv tv = new SmartTv();
-        tv.enable();
-        tv.openApp();
-        tv.closeApp();
-        tv.disable();
-    }
+  public static void main(String[] args) {
+    SmartTv tv = new SmartTv();
+    tv.enable();
+    tv.openApp();
+    tv.closeApp();
+    tv.disable();
+  }
 }

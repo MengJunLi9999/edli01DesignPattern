@@ -13,15 +13,15 @@ import java.util.List;
  * @Description:
  **/
 public class ShoppingStore {
-    private final static List<IPayment> paymentList = new ArrayList<IPayment>();
+  private final static List<IPayment> paymentList = new ArrayList<IPayment>();
 
-    static {
-        paymentList.add(new Cash());
-        paymentList.add(new CreditCard());
-        paymentList.add(new MobilePay());
-    }
+  static {
+    paymentList.add(new Cash());
+    paymentList.add(new CreditCard());
+    paymentList.add(new MobilePay());
+  }
 
-    public List<IPayment> getPaymentList() {
-        return this.paymentList;
-    }
+  public List<IPayment> getPaymentList() {
+    return this.paymentList;
+  }
 }

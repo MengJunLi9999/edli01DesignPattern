@@ -10,6 +10,6 @@ package org.edli01.solid.srp;
  * @Description:
  **/
 public interface ISoftwareManagement {
-    public void openApp();
-    public void closeApp();
+  public void openApp();
+  public void closeApp();
 }

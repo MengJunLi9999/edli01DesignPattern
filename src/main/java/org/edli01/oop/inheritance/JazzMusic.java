@@ -10,12 +10,12 @@ package org.edli01.oop.inheritance;
  * @Description:
  **/
 public class JazzMusic extends Music {
-    public JazzMusic(String name) {
-        super(name);
-    }
+  public JazzMusic(String name) {
+    super(name);
+  }
 
-    @Override
-    public void arrangementOrPlay() {
-        System.out.println("Play " + super.getName() + "'s jazz music");
-    }
+  @Override
+  public void arrangementOrPlay() {
+    System.out.println("Play " + super.getName() + "'s jazz music");
+  }
 }

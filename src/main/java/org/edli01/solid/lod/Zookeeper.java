@@ -12,16 +12,16 @@ import java.util.List;
  * @Description:
  **/
 public class Zookeeper {
-    private List<Animal> animalList;
+  private List<Animal> animalList;
 
-    public Zookeeper(List<Animal> animalList) {
-        this.animalList = animalList;
-    }
+  public Zookeeper(List<Animal> animalList) {
+    this.animalList = animalList;
+  }
 
-    public void feedAndDisplay() {
-        System.out.println("Feed the animals and display their names.");
-        for(Animal animal : animalList) {
-            System.out.println("Feed " + animal.getName());
-        }
+  public void feedAndDisplay() {
+    System.out.println("Feed the animals and display their names.");
+    for(Animal animal : animalList) {
+        System.out.println("Feed " + animal.getName());
     }
+  }
 }

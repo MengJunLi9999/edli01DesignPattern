@@ -10,9 +10,9 @@ package org.edli01.solid.isp;
  * @Description:
  **/
 public class EdLi01Isp {
-    public static void main(String[] args) {
-        IExcellentHitter edli01Player = new TwoWayPlayer("edli01");
-        AScout scout = new Scout(edli01Player);
-        scout.display();
-    }
+  public static void main(String[] args) {
+    IExcellentHitter edli01Player = new TwoWayPlayer("edli01");
+    AScout scout = new Scout(edli01Player);
+    scout.display();
+  }
 }

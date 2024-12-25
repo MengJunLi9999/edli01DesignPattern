@@ -10,8 +10,8 @@ package org.edli01.solid.lsp;
  * @Description:
  **/
 public class GPhone extends APhone {
-    @Override
-    public void sell() {
-        System.out.println("I want to sell an GPHONE.");
-    }
+  @Override
+  public void sell() {
+    System.out.println("I want to sell an GPHONE.");
+  }
 }

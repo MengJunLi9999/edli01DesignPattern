@@ -10,13 +10,13 @@ package org.edli01.solid.lod;
  * @Description:
  **/
 public class Animal {
-    private String name;
+  private String name;
 
-    public Animal(String name) {
-        this.name = name;
-    }
+  public Animal(String name) {
+    this.name = name;
+  }
 
-    public String getName() {
-        return this.name;
-    }
+  public String getName() {
+    return this.name;
+  }
 }

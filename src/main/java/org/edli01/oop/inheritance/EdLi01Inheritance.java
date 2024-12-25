@@ -10,11 +10,11 @@ package org.edli01.oop.inheritance;
  * @Description:
  **/
 public class EdLi01Inheritance {
-    public static void main(String[] args) {
-        Music jay = new PopMusic("Jay");
-        Music edli01 = new JazzMusic("EdLi01");
+  public static void main(String[] args) {
+    Music jay = new PopMusic("Jay");
+    Music edli01 = new JazzMusic("EdLi01");
 
-        jay.arrangementOrPlay();
-        edli01.arrangementOrPlay();
-    }
+    jay.arrangementOrPlay();
+    edli01.arrangementOrPlay();
+  }
 }

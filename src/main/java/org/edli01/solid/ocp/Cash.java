@@ -10,7 +10,7 @@ package org.edli01.solid.ocp;
  * @Description:
  **/
 public class Cash implements IPayment {
-    public String pay() {
-        return "Choose cash payment.";
-    }
+  public String pay() {
+    return "Choose cash payment.";
+  }
 }

@@ -10,17 +10,17 @@ package org.edli01.oop.inheritance;
  * @Description:
  **/
 public class Music {
-    private String name;
+  private String name;
 
-    public Music(String name) {
-        this.name = name;
-    }
+  public Music(String name) {
+    this.name = name;
+  }
 
-    public void arrangementOrPlay() {
-        System.out.println(name + " arrangement");
-    }
+  public void arrangementOrPlay() {
+    System.out.println(name + " arrangement");
+  }
 
-    public String getName() {
-        return this.name;
-    }
+  public String getName() {
+    return this.name;
+  }
 }

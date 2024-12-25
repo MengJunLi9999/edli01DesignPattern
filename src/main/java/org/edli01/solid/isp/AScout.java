@@ -10,16 +10,16 @@ package org.edli01.solid.isp;
  * @Description:
  **/
 public abstract class AScout {
-    protected IExcellentHitter iExcellentHitter = null;
-    protected IExcellentPitching iExcellentPitching = null;
+  protected IExcellentHitter iExcellentHitter = null;
+  protected IExcellentPitching iExcellentPitching = null;
 
-    public AScout(IExcellentHitter iExcellentHitter) {
-        this.iExcellentHitter = iExcellentHitter;
-    }
+  public AScout(IExcellentHitter iExcellentHitter) {
+    this.iExcellentHitter = iExcellentHitter;
+  }
 
-    public AScout(IExcellentPitching iExcellentPitching) {
-        this.iExcellentPitching = iExcellentPitching;
-    }
+  public AScout(IExcellentPitching iExcellentPitching) {
+    this.iExcellentPitching = iExcellentPitching;
+  }
 
-    public abstract void display();
+  public abstract void display();
 }
